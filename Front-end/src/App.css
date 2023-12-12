@@ -1,0 +1,6 @@
+.TopDiv {
+  height: 100vh; /* 100% of the viewport height */
+  width: 100vw;  /* 100% of the viewport width */
+  background-color: rgb(253 233 242); /* or any color you desire */
+ 
+}

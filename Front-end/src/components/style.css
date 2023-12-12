@@ -1,0 +1,154 @@
+.navTop {
+    height: 2rem;
+    background-color: rosybrown;
+    background-image: url('../src/assets/nav.png');
+    background-size: cover;
+    background-position: center; /* Optional: Center the background image */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .navText{
+    margin: 0;
+  }
+
+  .truImg{
+    width: 29px;
+    margin-left: 46px;
+  }
+  .navText{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 9px;
+    width: 9rem;
+  }
+
+  /* .cenNavImg{
+    width: 21rem;
+    margin-left: 25rem;
+
+  } */
+
+
+  .centerText {
+    overflow: hidden; /* Ensure that only one image is visible at a time */
+  }
+  
+  .cenNavImg {
+    width: 21rem;
+    margin-left: 25rem;
+    animation: moveUpDown 4s linear infinite;
+    transform-origin: center bottom; /* Set the transform origin to the bottom center */
+  }
+  
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-100%); /* Adjust the distance the image should move */
+    }
+  }
+  
+  
+  
+  
+
+
+  .navText2{
+    color: rgb(251 52 120);
+    font-size: 16px;
+    margin-right: 34px;
+    width: 14rem;
+  }
+  
+
+  .afterNav{
+    height: 9rem;
+    background-color: #fdf6f8cc;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .leftImg {
+    height: 7rem;
+    width: 21vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9rem;
+  }
+  
+  .leftImg img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  .searchItems {
+    height: 2.6rem;
+    width: 30vw;
+    align-items: center;
+    border-radius: 2rem;
+    border: 1px solid dimgray;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+  
+
+  .optionItems {
+    height: 7rem;
+    width: 29vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .optionItems > div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .optionItems > div img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px; /* Adjust the spacing between image and text */
+  }
+  
+  .optionItems > div h4 {
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .optionItems img:last-child {
+    width: 20px;
+    height: 20px;
+  }
+  
+
+  
+
+  .detailSer{
+    align-items: center;
+    font-size: 15px;
+    height: 2.6rem;
+    display: flex;
+    color: gray;
+    width: 8rem;
+    margin-top: 2px;
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+  }
+
+  .detailSer h4{
+    font-size: 13px;
+    margin-left: 14px;
+  }
