@@ -3,7 +3,7 @@
 .navTop {
     height: 2rem;
     background-color: rosybrown;
-    background-image: url('../src/assets/nav.png');
+    background-image: url('https://sanx-xcrino.vercel.app/_next/static/media/navbarBackgroundImage.3cf23f5e.png');
     background-size: cover;
     background-position: center; /* Optional: Center the background image */
     width: 100vw;
@@ -33,12 +33,6 @@
     transition: transform 0.3s ease; /* Add a smooth transition */
   }
   
-
-  /* .cenNavImg{
-    width: 21rem;
-    margin-left: 25rem;
-
-  } */
 
 
   .centerText {

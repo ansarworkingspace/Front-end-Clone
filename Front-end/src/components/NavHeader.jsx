@@ -11,15 +11,15 @@ const NavHeader = () => {
         <div className='truck'>
         <Image
           className='truImg'
-          src='/src/assets/NavTruck.png'
+          src='https://sanx-xcrino.vercel.app/_next/static/media/track.312729fc.png'
           alt='Truck Icon'
           fluid
         />
         </div>
         <h3 className='navText'>Track Order</h3>
         <div className='centerText'>
-        <Image className='cenNavImg' src='/src/assets/navCenTex.png' alt='Center Icon' fluid />
-  <Image className='cenNavImg' src='/src/assets/navCenTex.png' alt='Center Icon' fluid />
+        <Image className='cenNavImg' src='https://sanx-xcrino.vercel.app/_next/static/media/membershipBenefit.03a222aa.png' alt='Center Icon' fluid />
+  <Image className='cenNavImg' src='https://sanx-xcrino.vercel.app/_next/static/media/membershipBenefit.03a222aa.png' alt='Center Icon' fluid />
         </div>
         <h3 className='navText2'>Click here for details</h3>
       </div>
