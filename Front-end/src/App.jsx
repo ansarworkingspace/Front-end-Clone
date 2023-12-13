@@ -1,6 +1,9 @@
 import React from 'react'
 import '../src/App.css'
 import NavHeader from './components/NavHeader'
+import SecHead from './components/SecHead'
+import Banner from './components/Banner'
+
 
 
 const App = () => {
@@ -8,6 +11,8 @@ const App = () => {
    <div className='TopDiv'>
 
   <NavHeader/>
+    <SecHead/>
+     <Banner/>
 
    </div>
   )

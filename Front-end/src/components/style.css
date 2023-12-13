@@ -152,3 +152,190 @@
     font-size: 13px;
     margin-left: 14px;
   }
+
+
+  .headOptions {
+    height: 4rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+  }
+  
+  .option img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .option h4 {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(102 72 65);
+  }
+  
+  .headCards{
+    height: 12rem;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(209 234 247);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+
+
+  .card {
+    width: 10rem;
+    margin-top: 4px;
+    text-align: center;
+    background-color: rgb(242 252 228);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .card p {
+    
+  
+
+  }
+  
+  .cardWrap{
+    background-color: white;
+    height: 9rem;
+    width: 11rem;
+    border-radius: 0.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.7rem;
+  }
+
+
+
+.bannerDiv {
+  background-color: antiquewhite;
+  width: 100vw;
+  height: 35rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  position: relative;
+  height: 100%;
+}
+
+Image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center; 
+}
+
+.arrow {
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left-arrow {
+  left: 10px;
+  background-color: #aef5f5;
+    color: white;
+    border-radius: 7rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.right-arrow {
+  right: 23px;
+  background-color: #aef5f5;
+    color: white;
+    border-radius: 7rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* CSS code in your CSS file */
+.afterBanner {
+  width: 100vw;
+  height: 10rem;
+  display: flex;
+  padding: 20px;
+  background-color: #ffffff;
+  justify-content: center;
+}
+
+.custom-card {
+  width: 235px;
+  margin: 9px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: rgb(244 246 250);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensure images stay inside the card */
+  text-align: center; /* Center align text content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a default shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transitions for smooth animation */
+
+}
+
+.custom-card:hover {
+  transform: translateY(-5px); /* Move the card upward on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+}
+
+
+.custom-card img {
+  width: 17%;
+  height: auto;
+  object-fit: cover; /* Make sure the image covers the entire space */
+  border-radius: 6px; /* Example border radius for image */
+  margin: 0 auto; /* Center the image horizontally */
+  transition: transform 0.3s ease; 
+}
+
+.custom-card:hover img {
+  transform: translateY(-5px); /* Move the image upward on hover */
+}
+
+.custom-card h4 {
+  margin-top: 10px; /* Add margin as needed */
+  font-size: 16px; /* Example font size */
+  max-width: 100%; /* Ensure text stays within the card */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis (...) for overflow text */
+}
+
+.custom-card p {
+  margin-top: 8px; /* Add margin as needed */
+  font-size: 14px; /* Example font size */
+  color: #555; /* Example text color */
+  max-width: 100%; /* Ensure text stays within the card */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis (...) for overflow text */
+}
