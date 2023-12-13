@@ -103,37 +103,50 @@ const Banner = () => {
       <div className='afterBanner'>
   <div className='custom-card'>
     <img src="https://sanx-xcrino.vercel.app/_next/static/media/best-price2.c23668fb.png" alt="Card Image 1" />
-    <h4>Card Title 1</h4>
-    <p>This is the content of Card 1.</p>
+    <h4>Best prices offers</h4>
+    <p>Orders and get more</p>
   </div>
 
   <div className='custom-card'>
     <img src="https://sanx-xcrino.vercel.app/_next/static/media/best-delivery2.71da78ea.png" alt="Card Image 2" />
-    <h4>Card Title 2</h4>
-    <p>This is the content of Card 2.</p>
+    <h4>Best delivery</h4>
+    <p>24/7 amazing services</p>
   </div>
 
   <div className='custom-card'>
     <img src="https://sanx-xcrino.vercel.app/_next/static/media/great-deals2.b3a2d976.png" alt="Card Image 3" />
-    <h4>Card Title 3</h4>
-    <p>This is the content of Card 3.</p>
+    <h4>Great daily deal</h4>
+    <p>When you sign up</p>
   </div>
 
   <div className='custom-card'>
     <img src="https://sanx-xcrino.vercel.app/_next/static/media/assortments2.81e82459.png" alt="Card Image 4" />
-    <h4>Card Title 4</h4>
-    <p>This is the content of Card 4.</p>
+    <h4>Wide assortment</h4>
+    <p>Great Discounts</p>
   </div>
 
   <div className='custom-card'>
     <img src="https://sanx-xcrino.vercel.app/_next/static/media/easy-returns2.08a36928.png" alt="Card Image 5" />
-    <h4>Card Title 5</h4>
-    <p>This is the content of Card 5.</p>
+    <h4>Easy returns</h4>
+    <p>We are there</p>
   </div>
 </div>
 
 
-<div style={{height:"10rem"}}></div>
+<div className='warningBox'>
+
+<div className='wBox'>
+  <h4>▶ Please be careful of suspicious emails pretending to be from the San-X online shop.</h4>
+</div>
+
+</div>
+
+<div className='nextHead'>
+  <h4>Special feature/Campaign
+</h4>
+
+<img src="https://sanx-xcrino.vercel.app/_next/static/media/logo.6ce4d5f2.png" alt="" />
+</div>
 
     </>
   );

@@ -3,7 +3,9 @@ import '../src/App.css'
 import NavHeader from './components/NavHeader'
 import SecHead from './components/SecHead'
 import Banner from './components/Banner'
-
+import ColoumItems from './components/ColoumItems'
+import SlidingCard from './components/SlidingCard'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -11,9 +13,13 @@ const App = () => {
    <div className='TopDiv'>
 
   <NavHeader/>
-    <SecHead/>
-     <Banner/>
+  <SecHead/>
+  <Banner/>
+  <ColoumItems/>
+  <SlidingCard/>
+  <Footer/>
 
+  
    </div>
   )
 }
